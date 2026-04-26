@@ -3,6 +3,9 @@ __pycache__/
 .env
 uploads/*
 !uploads/.keep
-raw data/
-*.xlsx
-*.pdf
+# Allow necessary excels for V2
+!raw data/라벨링_매장조사데이터_260424.xlsx
+!raw data/라벨링 취합.xlsx
+# Hide raw PDFs
+raw data/*.pdf
+raw data/*.PDF

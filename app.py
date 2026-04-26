@@ -20,7 +20,7 @@ app = Flask(__name__)
 app.secret_key = "tp_alarm_v2_secret"
 
 BASE_DIR   = Path(__file__).parent
-RAW_DIR    = BASE_DIR.parent / "raw data"
+RAW_DIR    = BASE_DIR / "raw data"
 DATA_EXCEL = RAW_DIR / "라벨링 취합.xlsx"
 ALARM_EXCEL = RAW_DIR / "라벨링_매장조사데이터_260424.xlsx"
 
